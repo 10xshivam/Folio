@@ -1,37 +1,24 @@
 import React from "react";
-import { BiLogoMongodb } from "react-icons/bi";
-import { DiPostgresql } from "react-icons/di";
-import { FaAws, FaDocker, FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
-import { RiNextjsLine, RiTailwindCssFill } from "react-icons/ri";
-import {
-  SiAppwrite,
-  SiDrizzle,
-  SiExpress,
-  SiPostman,
-  SiPrisma,
-  SiTypescript,
-} from "react-icons/si";
-import { TbBrandCpp } from "react-icons/tb";
 
 const skills = [
-  { name: "", icon: TbBrandCpp },
-  { name: "JavaScript", icon: IoLogoJavascript },
-  { name: "TypeScript", icon: SiTypescript },
-  { name: "React.js", icon: FaReact },
-  { name: "Next.js", icon: RiNextjsLine },
-  { name: "Tailwind CSS", icon: RiTailwindCssFill },
-  { name: "Node.js", icon: FaNodeJs },
-  { name: "Express.js", icon: SiExpress },
-  { name: "MongoDB", icon: BiLogoMongodb },
-  { name: "PostgreSQL", icon: DiPostgresql },
-  { name: "Prisma", icon: SiPrisma },
-  { name: "Drizzle", icon: SiDrizzle },
-  { name: "Appwrite", icon: SiAppwrite },
-  { name: "Docker", icon: FaDocker },
-  { name: "AWS (ECR, ECS, CloudFront)", icon: FaAws },
-  { name: "GitHub", icon: FaGithub },
-  { name: "Postman", icon: SiPostman },
+    { name: "C++" },
+    { name: "JavaScript" },
+    { name: "TypeScript" },
+    { name: "React.js" },
+    { name: "Next.js" },
+    { name: "Tailwind CSS" },
+    { name: "Node.js" },
+    { name: "Express.js" },
+    { name: "MongoDB" },
+    { name: "PostgreSQL" },
+    { name: "Prisma" },
+    { name: "Drizzle" },
+    { name: "Appwrite" },
+    { name: "Docker" },
+    { name: "AWS (ECR, ECS, CloudFront)" },
+    { name: "GitHub" },
+    { name: "Postman" },
+    { name: "Figma" },
 ];
 
 export default function Skills() {
@@ -44,10 +31,6 @@ export default function Skills() {
             key={skill.name}
             className="text-xs font-semibold flex items-start gap-1.5 text-gray-300 hover:text-gray-50 border p-2 rounded-lg border-gray-800 font-mono"
           >
-            <skill.icon
-              size={18}
-              className="hover:scale-110 transition-transform duration-300 text-gray-400"
-            />
             {skill.name}
           </div>
         ))}
