@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Hero from "@/components/Hero";
+import Skills from "@/components/Skills";
 
 
 export default function Home() {
@@ -10,6 +11,9 @@ export default function Home() {
       </section>
       <section id="about">
         <About/>
+      </section>
+      <section id="skills">
+        <Skills/>
       </section>
     </main>
   );
