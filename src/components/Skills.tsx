@@ -42,7 +42,7 @@ export default function Skills() {
         {skills.map((skill) => (
           <div
             key={skill.name}
-            className="text-xs font-semibold flex items-start gap-1.5 text-gray-300 hover:text-gray-50 border p-2 rounded-lg border-gray-800"
+            className="text-xs font-semibold flex items-start gap-1.5 text-gray-300 hover:text-gray-50 border p-2 rounded-lg border-gray-800 font-mono"
           >
             <skill.icon
               size={18}
