@@ -35,7 +35,7 @@ const Socials = [
 
 export default function Hero() {
   return (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-4">
       <div className="flex flex-col gap-1">
         <h1 className="text-5xl font-semibold tracking-tighter">
           Hello, I&apos;m Shivam{" "}
@@ -44,7 +44,7 @@ export default function Hero() {
           Full Stack Developer | Cloud & DevOps Enthusiast
         </p>
       </div>
-      <div className="flex gap-4 px-2">
+      <div className="flex gap-4 ">
         {Socials.map((social, index) => (
           <Link
             key={index}
@@ -52,7 +52,7 @@ export default function Hero() {
             target="_blank"
             className="transition-colors duration-300 flex items-center gap-2"
           >
-            <span className="group flex items-center text-gray-300 hover:text-gray-50 border p-1.5 border-gray-800">
+            <span className="group flex items-center text-gray-300 hover:text-gray-50 border p-2 rounded-lg border-gray-800">
               <social.icon
                 size={20}
                 className="hover:scale-110 transition-transform duration-300"
