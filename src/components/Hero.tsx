@@ -52,7 +52,7 @@ export default function Hero() {
             target="_blank"
             className="transition-colors duration-300 flex items-center gap-2"
           >
-            <span className="group flex items-center text-gray-300 hover:text-gray-50 border p-2 rounded-lg border-gray-800">
+            <span className="group flex items-center text-gray-300 hover:text-gray-50 border p-2 rounded-lg border-gray-800 hover:bg-gray-800/30">
               <social.icon
                 size={20}
                 className="hover:scale-110 transition-transform duration-300"

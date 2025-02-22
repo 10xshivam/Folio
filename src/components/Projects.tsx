@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { GoDotFill } from "react-icons/go";
 
 const projects = [
   {
@@ -21,7 +22,7 @@ const projects = [
       "Razorpay, ",
       "Resend",
     ],
-    liveLink:"https://echoforms.vercel.app/",
+    liveLink: "https://echoforms.vercel.app/",
     github: "https://github.com/10xshivam/EchoForms",
   },
   {
@@ -52,15 +53,15 @@ export default function Projects() {
   return (
     <div className="flex flex-col gap-3">
       <h2 className="text-2xl font-bold">Projects</h2>
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-3">
         {projects.map((project) => (
           <div
             key={project.title}
-            className="w-full bg-gray-800/50 p-3 rounded-lg flex flex-col gap-2"
+            className="w-full bg-gray-800/30 p-3 rounded-lg flex flex-col gap-2"
           >
             <div className="flex justify-between">
-              <div className="flex gap-1 items-center">
-                <div className="p-0.5 border border-gray-800 rounded">
+              <div className="flex gap-2 items-center">
+                <div className="p-1 border border-gray-800 rounded">
                   <Image
                     alt={project.title}
                     src={project.icon}
@@ -73,8 +74,14 @@ export default function Projects() {
                 </span>
               </div>
               <div className="flex gap-2 font-mono tracking-tighter text-sm">
-                <Link href={project.liveLink} target="_blank">Live</Link>|
-                <Link href={project.github} target="_blank">GitHub</Link>
+                <Link href={project.liveLink} target="_blank">
+                  <GoDotFill className="text-green-600 inline" />
+                  Live
+                </Link>
+                |
+                <Link href={project.github} target="_blank">
+                  GitHub
+                </Link>
               </div>
             </div>
             <p className="text-xs font-semibold font-mono text-gray-300">
@@ -88,8 +95,8 @@ export default function Projects() {
                 </span>
               ))}
             </p>
-            <hr className="border-gray-700"/>
-            <p className="text-sm text-gray-500 font-mono tracking-tight">
+            <hr className="border-gray-700" />
+            <p className="text-sm text-gray-500  tracking-tight">
               {project.description}
             </p>
           </div>
