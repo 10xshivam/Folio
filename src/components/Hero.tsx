@@ -37,10 +37,10 @@ export default function Hero() {
   return (
     <div className="flex flex-col gap-4">
       <div className="flex flex-col gap-1">
-        <h1 className="text-5xl font-semibold tracking-tighter">
+        <h1 className="text-5xl font-semibold tracking-tighter max-md:text-4xl">
           Hello, I&apos;m Shivam{" "}
         </h1>
-        <p className="text-lg ml-1 tracking-tight text-gray-500">
+        <p className="text-lg ml-1 tracking-tight text-gray-500 max-md:leading-tight">
           Full Stack Developer | Cloud & DevOps Enthusiast
         </p>
       </div>

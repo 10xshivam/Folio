@@ -5,7 +5,7 @@ import { GoDotFill } from "react-icons/go";
 
 const projects = [
   {
-    title: "EchoForms - AI-Powered Form Builder",
+    title: "EchoForms ",
     icon: "/echoforms.png",
     description:
       "EchoForms is an AI-powered SaaS for effortless form creation via prompts. It offers real-time analytics, email notifications, and seamless data export, making form management efficient and user-friendly.",
@@ -26,7 +26,7 @@ const projects = [
     github: "https://github.com/10xshivam/EchoForms",
   },
   {
-    title: "Quick Report - Secure Incident Reporting",
+    title: "Quick Report ",
     icon: "/quickreport.png",
     description:
       "Quick Report is a secure platform for anonymous incident reporting, leveraging AI and real-time location tracking to enhance accuracy and efficiency. Admins get a robust dashboard for report management.",
@@ -53,7 +53,7 @@ export default function Projects() {
   return (
     <div className="flex flex-col gap-3">
       <h2 className="text-2xl font-bold">Projects</h2>
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-4">
         {projects.map((project) => (
           <div
             key={project.title}
