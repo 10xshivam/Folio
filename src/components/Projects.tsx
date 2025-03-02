@@ -26,10 +26,10 @@ const projects = [
     github: "https://github.com/10xshivam/EchoForms",
   },
   {
-    title: "Quick Report ",
-    icon: "/quickreport.png",
+    title: "ReportNow ",
+    icon: "/ReportNow.png",
     description:
-      "Quick Report is a secure platform for anonymous incident reporting, leveraging AI and real-time location tracking to enhance accuracy and efficiency. Admins get a robust dashboard for report management.",
+      "ReportNow is a secure platform for anonymous incident reporting, leveraging AI and real-time location tracking to enhance accuracy and efficiency.",
     technologies: [
       "Next.js, ",
       "Tailwind CSS, ",
@@ -42,10 +42,29 @@ const projects = [
       "Gemini AI, ",
       "Here API, ",
       "Cloudinary, ",
+      "Resend, ",
       "Docker",
     ],
-    liveLink: "https://quick-reportt.vercel.app/",
-    github: "https://github.com/10xshivam/Quick-Report",
+    liveLink: "https://reportnow.vercel.app/",
+    github: "https://github.com/10xshivam/ReportNow",
+  },
+  {
+    title: "Talker ",
+    icon: "/talker.png",
+    description:
+      "Talker is a real-time chat application built with a Node.js backend and a React frontend. It supports user authentication, profile management, and real-time messaging using Socket.IO. ",
+    technologies: [
+      "React.js, ",
+      "Tailwind CSS, ",
+      "Daisy UI, ",
+      "MongoDB, ",
+      "Express.js, ",
+      "JWT, ",
+      "Zustand, ",
+      "Socket.io ",
+    ],
+    liveLink: "https://talker-gqxd.onrender.com/",
+    github: "https://github.com/10xshivam/Talker",
   },
 ];
 
