@@ -28,7 +28,7 @@ const Socials = [
   },
   {
     name: "Resume",
-    url: "https://drive.google.com/file/d/1elBU0zTTmPdbD2I7n40ryOn1cbwHw-d1/view",
+    url: "https://drive.google.com/file/d/1z1cSs-eIenjx-oKLr9lLbX2_rhT_aXoF/view",
     icon: TbFileCv,
   },
 ];
